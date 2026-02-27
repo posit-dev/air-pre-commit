@@ -1,7 +1,5 @@
 # air-pre-commit
 
-[![Actions status](https://github.com/posit-dev/air-pre-commit/workflows/main/badge.svg)](https://github.com/posit-dev/air-pre-commit/actions)
-
 A [pre-commit](https://pre-commit.com/) hook for [Air](https://github.com/posit-dev/air).
 
 ### Using Air with pre-commit
