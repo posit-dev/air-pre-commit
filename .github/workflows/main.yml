@@ -1,4 +1,4 @@
-name: Update release tags
+name: "Update release tags"
 
 on:
   # Triggered manually or via Air's release process
