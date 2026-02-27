@@ -1,4 +1,4 @@
-name: "Update release tags"
+name: Update release tags
 
 on:
   # Triggered manually or via Air's release process
@@ -30,7 +30,7 @@ jobs:
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
       - name: Run mirror
-      - run: uv run --no-project mirror.py
+        run: uv run --no-project mirror.py
 
       - name: Check for unpushed commits
         run: |
