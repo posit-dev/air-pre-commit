@@ -1,0 +1,10 @@
+- id: air-format
+  name: air format
+  description: "Run 'air format' for R formatting"
+  entry: air format
+  language: python
+  types_or: [r]
+  args: []
+  require_serial: true
+  additional_dependencies: []
+  minimum_pre_commit_version: "2.9.2"
