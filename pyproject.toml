@@ -2,5 +2,5 @@
 name = "air-pre-commit"
 version = "0.0.0"
 dependencies = [
-    "air-formatter==0.8.1",
+    "air-formatter==0.8.2",
 ]
