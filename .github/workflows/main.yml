@@ -1,7 +1,7 @@
 name: Update release tags
 
 on:
-  # Triggered manually or via Air's release process
+  # Triggered manually during Air's release process
   workflow_dispatch:
 
 jobs:
