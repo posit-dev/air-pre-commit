@@ -13,9 +13,6 @@ jobs:
       contents: write
 
     steps:
-      - if: ${{ startsWith(github.event_name, 'repository_dispatch') }}
-        run: sleep 30
-
       - uses: actions/checkout@v4
         with:
           # Needed to push commits below
